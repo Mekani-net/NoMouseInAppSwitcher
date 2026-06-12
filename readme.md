@@ -10,4 +10,4 @@ So the solution is to move the mouse pointer out of the way.
 ## Technical solution
 At first I tried to capture and extract the actual location and size of the App Switcher window. But after multiple failed attempts I settled on just "guesstimating" where the App Switcher is.
 
-![Screenshot](AppSwitcher.png)
+![Screenshot](/Resources/AppSwitcher.png)

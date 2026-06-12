@@ -10,7 +10,7 @@ import ApplicationServices
 
 // Settings
 let moveMouseBackToOriginalPosition = false
-let debugOverlayEnabled = true
+let debugOverlayEnabled = false
 
 var savedMousePosition: NSPoint? = nil
 var debugOverlay: DebugOverlayWindow?

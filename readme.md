@@ -20,9 +20,11 @@ Also you can chose whether the mouse cursor should be put back to where it was w
 
 These are controlled in the top of the AppDelegate.swift:
 
+```swift
 // Settings
 let moveMouseBackToOriginalPosition = false
 let debugOverlayEnabled = false
+```
 
 
 ## Installation
@@ -31,3 +33,11 @@ let debugOverlayEnabled = false
 3. Try to open it (it wont work)
 4. Go to System Settings -> Privacy & Security. Scroll down to the bottom and select "Open Anyway" (you should generally never do this, unless you absolutely trust that the app is safe - if you want you can compile it yourself with Xcode)
 ![Screenshot](/Resources/Settings_blocked.png)
+5. Open the app again and now there are two permissions you need to grant:
+![Screenshot](/Resources/Accessibility_Access.png)
+![Screenshot](/Resources/Keystroke_Receiving.png)
+6. Either click the "Open System Settings" on each dialog or open System Settings and navigate to Privacy & Security -> Accessibility
+![Screenshot](/Resources/Settings_Accessibility.png)
+7. Also navigate to Privacy & Security -> Input Monitoring
+![Screenshot](/Resources/Settings_InputMonitoring.png)
+
